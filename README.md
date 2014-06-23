@@ -15,7 +15,7 @@ support later...
 
 ### Add the ADToolkit project to your project
 
-- Download and unzip the last version of the lib from the [download page](https://github.com/aidenluo177/ADToolkit/releases)
+- Download and unzip the last version of the lib from the [download page](https://github.com/aidenluo177/ADToolkit/archive/master.zip)
 - Right-click on the project navigator and select "Add Files to "Your Project":
 - In the dialog, select ADToolkit.xcodeproj:
 - Check the "Copy items into destination group's folder (if needed)" checkbox
