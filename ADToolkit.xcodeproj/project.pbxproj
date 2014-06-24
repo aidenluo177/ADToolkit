@@ -16,6 +16,7 @@
 		BC5076851957FE5F00D30375 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC5076831957FE5F00D30375 /* InfoPlist.strings */; };
 		BC5076871957FE5F00D30375 /* ADToolkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5076861957FE5F00D30375 /* ADToolkitTests.m */; };
 		BC5076971957FF3400D30375 /* UIImage+ADResize.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5076961957FF3400D30375 /* UIImage+ADResize.m */; };
+		BC5076FC19594C2500D30375 /* UIView+ADLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5076FB19594C2500D30375 /* UIView+ADLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		BC5076861957FE5F00D30375 /* ADToolkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADToolkitTests.m; sourceTree = "<group>"; };
 		BC5076951957FF3400D30375 /* UIImage+ADResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ADResize.h"; sourceTree = "<group>"; };
 		BC5076961957FF3400D30375 /* UIImage+ADResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ADResize.m"; sourceTree = "<group>"; };
+		BC5076FA19594C2500D30375 /* UIView+ADLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ADLayout.h"; sourceTree = "<group>"; };
+		BC5076FB19594C2500D30375 /* UIView+ADLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ADLayout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,7 @@
 		BC50766C1957FE5F00D30375 /* ADToolkit */ = {
 			isa = PBXGroup;
 			children = (
+				BC5076F919594C0A00D30375 /* UIView */,
 				BC5076941957FF2600D30375 /* UIImage */,
 				BC50766F1957FE5F00D30375 /* ADToolkit.h */,
 				BC50766D1957FE5F00D30375 /* Supporting Files */,
@@ -151,6 +155,15 @@
 				BC5076961957FF3400D30375 /* UIImage+ADResize.m */,
 			);
 			path = UIImage;
+			sourceTree = "<group>";
+		};
+		BC5076F919594C0A00D30375 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				BC5076FA19594C2500D30375 /* UIView+ADLayout.h */,
+				BC5076FB19594C2500D30375 /* UIView+ADLayout.m */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC5076971957FF3400D30375 /* UIImage+ADResize.m in Sources */,
+				BC5076FC19594C2500D30375 /* UIView+ADLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +429,7 @@
 				BC50768C1957FE5F00D30375 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC50768D1957FE5F00D30375 /* Build configuration list for PBXNativeTarget "ADToolkitTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +438,7 @@
 				BC50768F1957FE5F00D30375 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
