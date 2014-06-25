@@ -17,6 +17,7 @@
 		BC5076871957FE5F00D30375 /* ADToolkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5076861957FE5F00D30375 /* ADToolkitTests.m */; };
 		BC5076971957FF3400D30375 /* UIImage+ADResize.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5076961957FF3400D30375 /* UIImage+ADResize.m */; };
 		BC5076FC19594C2500D30375 /* UIView+ADLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5076FB19594C2500D30375 /* UIView+ADLayout.m */; };
+		BC50770B195A76A400D30375 /* UIView+ADGestureAction.m in Sources */ = {isa = PBXBuildFile; fileRef = BC50770A195A76A400D30375 /* UIView+ADGestureAction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		BC5076961957FF3400D30375 /* UIImage+ADResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ADResize.m"; sourceTree = "<group>"; };
 		BC5076FA19594C2500D30375 /* UIView+ADLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ADLayout.h"; sourceTree = "<group>"; };
 		BC5076FB19594C2500D30375 /* UIView+ADLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ADLayout.m"; sourceTree = "<group>"; };
+		BC507709195A76A400D30375 /* UIView+ADGestureAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ADGestureAction.h"; sourceTree = "<group>"; };
+		BC50770A195A76A400D30375 /* UIView+ADGestureAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ADGestureAction.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +165,8 @@
 			children = (
 				BC5076FA19594C2500D30375 /* UIView+ADLayout.h */,
 				BC5076FB19594C2500D30375 /* UIView+ADLayout.m */,
+				BC507709195A76A400D30375 /* UIView+ADGestureAction.h */,
+				BC50770A195A76A400D30375 /* UIView+ADGestureAction.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 			files = (
 				BC5076971957FF3400D30375 /* UIImage+ADResize.m in Sources */,
 				BC5076FC19594C2500D30375 /* UIView+ADLayout.m in Sources */,
+				BC50770B195A76A400D30375 /* UIView+ADGestureAction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
