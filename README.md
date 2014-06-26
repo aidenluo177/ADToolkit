@@ -6,6 +6,10 @@ It provides:
 * Scaling a UIImage likes what UIImageView contentMode do
 * Add more feature later
 
+Environment
+----------
+iOS 6.0
+
 How to use
 ----------
 
