@@ -19,6 +19,8 @@
 		BC5076FC19594C2500D30375 /* UIView+ADLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5076FB19594C2500D30375 /* UIView+ADLayout.m */; };
 		BC50770B195A76A400D30375 /* UIView+ADGestureAction.m in Sources */ = {isa = PBXBuildFile; fileRef = BC50770A195A76A400D30375 /* UIView+ADGestureAction.m */; };
 		BC507715195A7CBE00D30375 /* UIView+ADDebugTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BC507714195A7CBE00D30375 /* UIView+ADDebugTool.m */; };
+		BC507726195BC13600D30375 /* UIActionSheet+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = BC507725195BC13600D30375 /* UIActionSheet+Block.m */; };
+		BC507729195BC14700D30375 /* UIAlertView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = BC507728195BC14700D30375 /* UIAlertView+Block.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,10 @@
 		BC50770A195A76A400D30375 /* UIView+ADGestureAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ADGestureAction.m"; sourceTree = "<group>"; };
 		BC507713195A7CBE00D30375 /* UIView+ADDebugTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ADDebugTool.h"; sourceTree = "<group>"; };
 		BC507714195A7CBE00D30375 /* UIView+ADDebugTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ADDebugTool.m"; sourceTree = "<group>"; };
+		BC507724195BC13600D30375 /* UIActionSheet+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+Block.h"; sourceTree = "<group>"; };
+		BC507725195BC13600D30375 /* UIActionSheet+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+Block.m"; sourceTree = "<group>"; };
+		BC507727195BC14700D30375 /* UIAlertView+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Block.h"; sourceTree = "<group>"; };
+		BC507728195BC14700D30375 /* UIAlertView+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Block.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,8 @@
 		BC50766C1957FE5F00D30375 /* ADToolkit */ = {
 			isa = PBXGroup;
 			children = (
+				BC507722195BC0F000D30375 /* UIActionSheet */,
+				BC507723195BC0F000D30375 /* UIAlertView */,
 				BC5076F919594C0A00D30375 /* UIView */,
 				BC5076941957FF2600D30375 /* UIImage */,
 				BC50766F1957FE5F00D30375 /* ADToolkit.h */,
@@ -174,6 +182,24 @@
 				BC507714195A7CBE00D30375 /* UIView+ADDebugTool.m */,
 			);
 			path = UIView;
+			sourceTree = "<group>";
+		};
+		BC507722195BC0F000D30375 /* UIActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				BC507724195BC13600D30375 /* UIActionSheet+Block.h */,
+				BC507725195BC13600D30375 /* UIActionSheet+Block.m */,
+			);
+			path = UIActionSheet;
+			sourceTree = "<group>";
+		};
+		BC507723195BC0F000D30375 /* UIAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				BC507727195BC14700D30375 /* UIAlertView+Block.h */,
+				BC507728195BC14700D30375 /* UIAlertView+Block.m */,
+			);
+			path = UIAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +285,8 @@
 			files = (
 				BC5076971957FF3400D30375 /* UIImage+ADResize.m in Sources */,
 				BC507715195A7CBE00D30375 /* UIView+ADDebugTool.m in Sources */,
+				BC507726195BC13600D30375 /* UIActionSheet+Block.m in Sources */,
+				BC507729195BC14700D30375 /* UIAlertView+Block.m in Sources */,
 				BC5076FC19594C2500D30375 /* UIView+ADLayout.m in Sources */,
 				BC50770B195A76A400D30375 /* UIView+ADGestureAction.m in Sources */,
 			);
@@ -325,7 +353,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -356,7 +384,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
