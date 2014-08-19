@@ -16,13 +16,13 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ADToolkit"
-  s.version      = "0.0.1"
+  s.version      = "0.0.0.1"
   s.summary      = "Some useful categories"
   s.homepage     = "https://github.com/aidenluo177/ADToolkit"
   s.license      = "BSD"
   s.author             = { "aidenluo" => "aidenluo177@gmail.com" }
-  s.source       = { :git => "https://github.com/aidenluo177/ADToolkit.git", :tag => "0.0.1" }
-  s.source_files  = "ADToolkit/*.{h,m}"
-  s.public_header_files = "ADToolkit/ADToolkit.h"
-  s.requires_arc = false
+  s.source       = { :git => "https://github.com/aidenluo177/ADToolkit.git", :tag => "#{s.version}" }
+  s.source_files  = "ADToolkit/**/*.{h,m}"
+  s.requires_arc = true
+  s.ios.deployment_target = '6.0'
 end
