@@ -15,7 +15,9 @@ How to use
 
 ### Installation with CocoaPods
 
-support later...
+```ruby
+pod 'ADToolkit', '~>0.0.0.1'
+```
 
 ### Add the ADToolkit project to your project
 
