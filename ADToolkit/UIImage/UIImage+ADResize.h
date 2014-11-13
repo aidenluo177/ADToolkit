@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 aidenluo. All rights reserved.
 //
 
-
+#import <UIKit/UIKit.h>
 
 @interface UIImage (ADResize)
 
